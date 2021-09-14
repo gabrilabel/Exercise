@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Tag untuk Tabel</h1>
+
+    <table border="1" cellspacing="0" cellpadding="8">
+        <thead>
+            <tr bgcolor="skyblue">
+               <th>#</th>
+                <th>Kolom 1</th>
+                <th>Kolom 2</th> 
+                <th>Kolom 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Row span 3</th>
+                <td>Baris 1, Kolom 1</td>
+                <td colspan="2" align="center">Colspan 2</td>
+            </tr>
+            <tr>
+                <td>Baris 2, Kolom 1</td>
+                <td>Baris 2, Kolom 2</td>
+                <td>Baris 3, Kolom 3</td>
+            </tr>
+            <tr>
+                <td>Baris 3, Kolom 1</td>
+                <td>Baris 3, Kolom 2</td>
+                <td>Baris 3, Kolom 3</td>
+            </tr>
+        </tbody>
+           <tfoot>
+               <tr bgcolor="skyblue">
+                   <th colspan="3">Total</th>
+                   <th>Jumlah</th>
+               </tr>
+           </tfoot>
+    </table>
+</body>
+</html>
